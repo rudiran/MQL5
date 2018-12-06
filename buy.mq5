@@ -10,7 +10,7 @@ void Buy(string symbol,double lots)
 //--- parameters of request
    request.action   =TRADE_ACTION_DEAL;                     // type of trade operation
    request.symbol   =Symbol();                              // symbol
-   request.volume   =0.1;                                   // volume of 0.1 lot
+   request.volume   =lots;                                  // volume 
    request.type     =ORDER_TYPE_BUY;                        // order type
    request.price    =SymbolInfoDouble(Symbol(),SYMBOL_ASK); // price for opening
    request.deviation=5;                                     // allowed deviation from the price
