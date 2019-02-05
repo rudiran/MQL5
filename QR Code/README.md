@@ -1,6 +1,6 @@
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
-![My image](Thecreator1.github.com/MQL5/images/1024px-QR_Character_Placement.svg.png)
+![My image](Thecreator1.github.com/MQL5/images/1024px-QR_Character_Placement.png)
 
 ![Image of QR Code]
 (https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/QR_Character_Placement.svg/1024px-QR_Character_Placement.svg.png)
