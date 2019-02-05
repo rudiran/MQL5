@@ -1,14 +1,12 @@
 
 ![My image](https://github.com/Thecreator1/images/blob/master/1024px-QR_Character_Placement.png)
 
-![Image of QR Code]
-(https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/QR_Character_Placement.svg/1024px-QR_Character_Placement.svg.png)
+**Encoding modes** 
+ENC
 
-**Encoding modes**
-
-First Header | Second Header
+Indicator | Meaning
 ------------ | -------------
-Content from cell 1 | Content from cell 2
+`0001` | [Numeric encoding (10 bits per 3 digits)]
 Content in the first column | Content in the second column
 
 #Indicator	#Meaning
