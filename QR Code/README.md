@@ -6,9 +6,7 @@ ENC
 
 Indicator | Meaning
 ------------ | -------------
-`0001` | Numeric encoding (10 bits per 3 digits)
-Content in the first column | Content in the second column
-
+`0001`  | Numeric encoding (10 bits per 3 digits)
 `0010`	| Alphanumeric encoding (11 bits per 2 characters)
 `0100`	| Byte encoding (8 bits per character)
 `1000`	| Kanji encoding (13 bits per character)
