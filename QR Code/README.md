@@ -1,3 +1,4 @@
+![QR image](https://github.com/Thecreator1/images/blob/master/qrcode.png)
 
 ![My image](https://github.com/Thecreator1/images/blob/master/1024px-QR_Character_Placement.png)
 
