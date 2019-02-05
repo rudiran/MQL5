@@ -18,7 +18,7 @@ Indicator | Meaning
 
 **Encoding modes can be mixed as needed within a QR symbol. (e.g., a url with a long string of alphanumeric characters )**
 
-[ Mode Indicator][ Mode bitstream ] --> [ Mode Indicator][ Mode bitstream ] --> etc... --> [ 0000 End of message (Terminator) ]
+`[ Mode Indicator][ Mode bitstream ] --> [ Mode Indicator][ Mode bitstream ] --> etc... --> [ 0000 End of message (Terminator) ]`
 
 **After every indicator that selects an encoding mode is a length field that tells how many characters are encoded in that mode. The number of bits in the length field depends on the encoding and the symbol version.**
 
