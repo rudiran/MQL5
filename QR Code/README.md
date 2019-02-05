@@ -42,7 +42,7 @@ Two characters are coded in an 11-bit value by this formula:**
 This has the exception that the last character in an alphanumeric string with an odd length is read as a 6-bit value instead.
 
 
-Alphanumeric character codes
+**Alphanumeric character codes**
 
 Code	| Character	| Code	| Character	| Code	| Character	| Code	| Character	| Code	| Character
 ----- | --------- | ----- | --------- |------ | --------- | ----- | --------- | ----- | ---------
