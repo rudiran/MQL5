@@ -1,4 +1,3 @@
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
 ![My image](https://github.com/Thecreator1/images/blob/master/1024px-QR_Character_Placement.png)
 
