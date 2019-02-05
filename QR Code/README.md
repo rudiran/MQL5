@@ -1,4 +1,12 @@
+![Image of QR Code]
+(https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/QR_Character_Placement.svg/1024px-QR_Character_Placement.svg.png)
+
 **Encoding modes**
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
 
 #Indicator	#Meaning
 `0001`	[Numeric encoding (10 bits per 3 digits)]
@@ -41,5 +49,4 @@
 `07`	[7]	`16`	[G]	`25`	[P]	`34`	[Y]	`43`	[/]
 `08`	[8]	`17`	[H]	`26`	[Q]	`35`	[Z]	`44`	[:]
 
-![Image of QR Code]
-(https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/QR_Character_Placement.svg/1024px-QR_Character_Placement.svg.png)
+
