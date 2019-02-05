@@ -23,11 +23,12 @@ Indicator | Meaning
 **After every indicator that selects an encoding mode is a length field that tells how many characters are encoded in that mode. The number of bits in the length field depends on the encoding and the symbol version.**
 
 **Number of bits in a length field (Character Count Indicator)**
-#Encoding	Ver. 1–9   10–26    27–40
-[Numeric]	`10`	  `12`	    `14`
-[Alphanumeric]	`9`	  `11`	    `13`
-[Byte]	        `8`	  `16`	    `16`
-[Kanji]	        `8`	  `10`	    `12`
+Encoding | Ver. 1–9 | 10–26 | 27–40
+------------ | ------------- |------------ | ------------- |
+Numeric |	`10`	|  `12`	  |  `14`
+Alphanumeric|	`9`	 | `11`	   | `13`
+Byte	  |      `8`	|  `16`	 |   `16`
+Kanji   |     `8`	|  `10`	  |  `12`
 
 **Alphanumeric encoding mode stores a message more compactly than the byte mode can, but cannot store lower-case letters and has only a limited selection of punctuation marks, which are sufficient for rudimentary web addresses. Two characters are coded in an 11-bit value by this formula:**
 
