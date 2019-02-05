@@ -17,7 +17,7 @@ Indicator | Meaning
 `1001`	| FNC1 in second position
 `0000`	| End of message (Terminator)
 
-**Encoding modes can be mixed as needed within a QR symbol. (e.g., a url with a long string of alphanumeric characters )**
+**Encoding modes can be mixed as needed within a QR symbol. (e.g., a url with a long string of alphanumeric characters)**
 
 `[ Mode Indicator][ Mode bitstream ] --> [ Mode Indicator][ Mode bitstream ] --> etc... --> [ 0000 End of message (Terminator) ]`
 
@@ -34,9 +34,11 @@ Alphanumeric|	`9`	 | `11`	   | `13`
 Byte	  |      `8`	|  `16`	 |   `16`
 Kanji   |     `8`	|  `10`	  |  `12`
 
-**Alphanumeric encoding mode stores a message more compactly than the byte mode can, but cannot store lower-case letters and has only a limited selection of punctuation marks, which are sufficient for rudimentary web addresses. Two characters are coded in an 11-bit value by this formula:**
+**Alphanumeric encoding mode stores a message more compactly than the byte mode can, but cannot store lower-case letters and has only a limited selection of punctuation marks, which are sufficient for rudimentary web addresses. 
+Two characters are coded in an 11-bit value by this formula:**
 
-V = 45 × C1 + C2
+`V = 45 × C1 + C2`
+
 This has the exception that the last character in an alphanumeric string with an odd length is read as a 6-bit value instead.
 
 
