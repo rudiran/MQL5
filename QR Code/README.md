@@ -6,19 +6,17 @@ ENC
 
 Indicator | Meaning
 ------------ | -------------
-`0001` | [Numeric encoding (10 bits per 3 digits)]
+`0001` | Numeric encoding (10 bits per 3 digits)
 Content in the first column | Content in the second column
 
-#Indicator	#Meaning
-`0001`	[Numeric encoding (10 bits per 3 digits)]
-`0010`	[Alphanumeric encoding (11 bits per 2 characters)]
-`0100`	[Byte encoding (8 bits per character)]
-`1000`	[Kanji encoding (13 bits per character)]
-`0011`	[Structured append (used to split a message across multiple QR symbols)]
-`0111`	[Extended Channel Interpretation (select alternate character set or encoding)]
-`0101`	[FNC1 in first position (see Code 128 for more information)]
-`1001`	[FNC1 in second position]
-`0000`	[End of message (Terminator)]
+`0010`	| Alphanumeric encoding (11 bits per 2 characters)
+`0100`	| Byte encoding (8 bits per character)
+`1000`	| Kanji encoding (13 bits per character)
+`0011`	| Structured append (used to split a message across multiple QR symbols)
+`0111`	| Extended Channel Interpretation (select alternate character set or encoding)
+`0101`	| FNC1 in first position (see Code 128 for more information)
+`1001`	| FNC1 in second position
+`0000`	| End of message (Terminator)
 
 **Encoding modes can be mixed as needed within a QR symbol. (e.g., a url with a long string of alphanumeric characters )**
 
