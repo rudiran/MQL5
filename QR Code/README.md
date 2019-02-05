@@ -24,7 +24,7 @@ Indicator | Meaning
 
 **Number of bits in a length field (Character Count Indicator)**
 Encoding | Ver. 1–9 | 10–26 | 27–40
------------- | ------------- |------------ | ------------- |
+------------ | ------------- 
 Numeric |	`10`	|  `12`	  |  `14`
 Alphanumeric|	`9`	 | `11`	   | `13`
 Byte	  |      `8`	|  `16`	 |   `16`
