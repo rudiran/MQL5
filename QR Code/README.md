@@ -1,3 +1,19 @@
+```MQL5
+//+------------------------------------------------------------------+  
+//- QR Create Function  
+//+------------------------------------------------------------------+
+//---Syntax:
+bool QR_Create(int x,int y,int pixelsize,string text,ECL ecl,MASK mask);
+//-[in] int x = x position
+//-[in] int y = y position
+//-[in] int pixelsize = size of the qr code pixels
+//-[in] string text = message to encode
+//-[in] ECL ecl = Error Correction Level Version
+//-[in] MASK mask = Mask Pattern Version
+//-[out] bool 1/0
+//+------------------------------------------------------------------+
+```
+
 ![QR image](https://github.com/Thecreator1/images/blob/master/qrcode.png)
 
 ![My image](https://github.com/Thecreator1/images/blob/master/1024px-QR_Character_Placement.png)
@@ -144,3 +160,5 @@ Then the output should correspond to the desired format string:
 //---
 ```
 `QR Code Test EURUSD,H1: Format String:01001`
+
+
