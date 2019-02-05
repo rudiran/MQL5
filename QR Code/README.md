@@ -23,6 +23,8 @@ Indicator | Meaning
 **After every indicator that selects an encoding mode is a length field that tells how many characters are encoded in that mode. The number of bits in the length field depends on the encoding and the symbol version.**
 
 **Number of bits in a length field (Character Count Indicator)**
+LEN
+
 First Header | Second Header | First Header | Second Header
 ------------ | ------------- | ------------ | -------------
 
