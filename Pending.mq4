@@ -2,6 +2,8 @@
 #property script_show_inputs
 #define EXPERT_MAGIC 123456                             // MagicNumber of the expert
 input ENUM_ORDER_TYPE orderType=ORDER_TYPE_BUY_LIMIT;   // order type
+input ENUM_ORDER_TYPE_TIME expiration_type=1;           // order expiration time type
+input datetime expire=D'31.01.2019 00:00:01';           // order expiration YYYY.MM.DD HR:MN:SC
 //+------------------------------------------------------------------+
 //| Placing pending orders                                           |
 //+------------------------------------------------------------------+
@@ -16,10 +18,12 @@ void OnStart()
    request.volume   =0.1;                                              // volume of 0.1 lot
    request.deviation=2;                                                // allowed deviation from the price
    request.magic    =EXPERT_MAGIC;                                     // MagicNumber of the order
+   request.type_time=expiration_type;                                  // Expiration time type of the order  
+   request.expiration=expire;                                          // Expiration of the order
    int offset = 50;                                                    // offset from the current price to place the order, in points
    double price;                                                       // order triggering price
    double point=SymbolInfoDouble(_Symbol,SYMBOL_POINT);                // value of point
-   int digits=SymbolInfoInteger(_Symbol,SYMBOL_DIGITS);                // number of decimal places (precision)
+   int digits=(int)SymbolInfoInteger(_Symbol,SYMBOL_DIGITS);           // number of decimal places (precision)
    //--- checking the type of operation
    if(orderType==ORDER_TYPE_BUY_LIMIT)
      {
